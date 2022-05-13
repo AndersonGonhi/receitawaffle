@@ -1,71 +1,155 @@
-* {
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Patrick+Hand&family=Roboto&display=swap');
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   }
+}
 
-/*
-    - Background da página: `#EAEAEA`;
-    - Background da receita: `#FFFFFF`;
-    - Títulos e subtítulos: `#1B1B1B`;
-    - Footer e legenda da imagem: `#8F8F8F`;
-    - Outros textos: `#39393A`;
-*/
+:root{
+    font-size: 62.5%;
+
+    --ul-color:rgba(0, 0, 0, 0.76);
+    --modo-preparo:rgba(248, 152, 9, 1);
+}
+
+html{
+    background-color: #FDF8C9;
+}
+
 body{
-    background-color: #EAEAEA;
+   align-items: center;
+    background-color: #FDF3F3;
+    box-shadow: 10px 6px 4px rgba(0, 0, 0, 0.25);
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 4rem;
+
+    border-radius: 1rem;
+    max-width: 131.9rem;
+    width: 90%;
+    height: 169rem;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
-   img{
-    border-radius: 10px;
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-   }
+header{
+    max-width: auto;
+    height: 13.6rem;
 
-figcaption{
-    text-align: right;
-    font-size: 12px;
-    font-family: 'roboto';
+    background: #F38FDD;
+}
+
+header>p{
+    font-family: 'Damion';
+    font-size: 10rem;
+
+    color: white;
+    margin-left: 8.5rem;
 
 }
 
-h1,h2,h3{
-    color: #f45511;
+h2{
+    background-color: #F8D000;
+
+    margin-top: 5.9rem;
+    max-width: 76.8rem;
+    height: 7.4rem;
+
+    color: white;
+    font-family: 'Damion';
+    font-size: 5rem;
+    font-weight: 400;
+    
+    padding-left: 4.5rem;
+    margin-bottom: 2.8rem; 
+}
+
+ul,ol{
+    font-family: 'Patrick Hand';
+    font-size: 1.8rem;
+    line-height: 3.3rem;
+    color: var(--ul-color);
+
+    margin-left: 7rem;
+    margin-bottom: 1.8rem;
+}
+
+h3{
+    font-family: 'Damion';
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 5.5rem;
+
+    margin-left: 4.5rem;
+
+    color: var(--modo-preparo);
+}
+
+.valor-nutricional{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    margin-top: 9.2rem;
+
+    width: 121.6rem;
+    height: 10.5rem;  
+    
+    border: none;
+    border-spacing: .5rem;
+}
+
+tr{
     text-align: center;
-    padding: 30px;
-    font-family: 'roboto';
-    font-weight: 700;
-    font-size: 28px;
+    border: none;
+
+    color: white;
+    font-family: 'Roboto';
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.3rem;
 }
 
-ol, ul, li{
-    color:#39393A ;
-    font-size: 16px;
-    font-family: 'roboto';
-    padding: 20px 30px;
-       
+td:first-child{
+    background-color: rgba(71, 235, 117, 0.88);
 }
 
-.conteudo{
-    padding: 50px;
-    background-color:#FFFFFF ;
-    margin: 100px;
-    box-sizing: 100px;
-    border-radius: 10px;
+td{
+    
+    border: none;
+    background-color: #F8D000;
 }
 
-footer,a{
-    text-align: center;
-    font-size: 12px;
-    padding-bottom: 20px;
-    font-family: 'roboto';
-    text-decoration: none;
+.footer-line{
+    background-color: #F38FDD;
+    height: 2.5rem;
+    max-width: auto;
+    
+    margin-top: 11rem;
 }
 
-.informacoes, p{
-    color:#39393A ;
-    font-size: 16px;
-    font-family: 'roboto';
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Roboto';
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+
+    margin-left: 5.9rem;
+
+    color: white;
 }
+
+.footer-text:last-child{
+    margin-right: 11.5rem;
+}
+
 
 
