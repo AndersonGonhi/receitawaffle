@@ -19,18 +19,17 @@ html{
 }
 
 body{
-   align-items: center;
     background-color: #FDF3F3;
     box-shadow: 10px 6px 4px rgba(0, 0, 0, 0.25);
 
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding-top: 4rem;
+    padding-bottom: 1.2rem;
 
     border-radius: 1rem;
     max-width: 131.9rem;
-    width: 90%;
-    height: 169rem;
+    width: 95%;
 
     margin-left: auto;
     margin-right: auto;
@@ -39,7 +38,7 @@ body{
 header{
     max-width: auto;
     height: 13.6rem;
-
+    
     background: #F38FDD;
 }
 
@@ -49,7 +48,6 @@ header>p{
 
     color: white;
     margin-left: 8.5rem;
-
 }
 
 h2{
@@ -97,6 +95,7 @@ h3{
 table{
     margin-top: 9.2rem;
 
+
     width: 121.6rem;
     height: 10.5rem;  
     
@@ -119,8 +118,7 @@ td:first-child{
     background-color: rgba(71, 235, 117, 0.88);
 }
 
-td{
-    
+td{   
     border: none;
     background-color: #F8D000;
 }
@@ -129,7 +127,7 @@ td{
     background-color: #F38FDD;
     height: 2.5rem;
     max-width: auto;
-    
+
     margin-top: 11rem;
 }
 
